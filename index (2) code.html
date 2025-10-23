@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <title>TechStore by N.Surname (Mariana Maiboroda)</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f8f9fa;
+    }
+
+    /* Шапка */
+    header {
+      background-color: #0077b6;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    /* Контент */
+    main {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 30px;
+      flex-wrap: wrap;
+    }
+
+    .product {
+      background: white;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      padding: 15px;
+      width: 250px;
+      text-align: center;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+
+    .product img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+
+    .product h3 {
+      margin: 10px 0;
+      color: #333;
+    }
+
+    .product p {
+      font-size: 14px;
+      color: #555;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 15px;
+      background-color: #0077b6;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      text-decoration: none;
+      transition: background 0.3s;
+    }
+
+    .btn:hover {
+      background-color: #023e8a;
+    }
+
+    /* Футер */
+    footer {
+      background-color: #03045e;
+      color: white;
+      text-align: center;
+      padding: 15px;
+    }
+
+    footer p {
+      margin: 5px 0;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Шапка -->
+  <header>
+    <h1>TechStore by N.Surname (Mariana Maiboroda)</h1>
+    <nav>
+      <a href="#">Головна</a>
+      <a href="#">Продукти</a>
+      <a href="#">Контакти</a>
+    </nav>
+  </header>
+
+  <!-- Контент -->
+  <main>
+    <div class="product">
+      <img src="techstore/images/iphone.png" alt="iPhone 15 Pro">
+      <h3>iPhone 15 Pro</h3>
+      <p>Флагман від Apple з потужним процесором A17 Pro та камерою нового рівня.</p>
+      <a class="btn" href="https://apple.com" target="_blank">Детальніше</a>
+    </div>
+
+    <div class="product">
+      <img src="techstore/images/samsung.jpg" alt="Samsung Galaxy S23">
+      <h3>Samsung Galaxy S23</h3>
+      <p>Яскравий AMOLED-екран та камера для найкращих фото у будь-яких умовах.</p>
+      <a class="btn" href="https://samsung.com" target="_blank">Детальніше</a>
+    </div>
+
+    <div class="product">
+      <img src="techstore/images/pixel.jpg" alt="Google Pixel 7">
+      <h3>Google Pixel 7</h3>
+      <p>Смартфон від Google із чистим Android та передовими AI-функціями.</p>
+      <a class="btn" href="https://store.google.com" target="_blank">Детальніше</a>
+    </div>
+  </main>
+
+  <!-- Футер -->
+  <footer>
+    <p>Телефон: +380 99 123 45 67</p>
+    <p>Email: info@techstore.ua</p>
+    <p>Facebook | Instagram | Twitter</p>
+  </footer>
+
+</body>
+</html>
